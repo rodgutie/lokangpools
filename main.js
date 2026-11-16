@@ -173,7 +173,7 @@
     $$('.lab__row').forEach((row) => {
       const key = row.dataset.row, state = lab[key][t];
       const cell = $('.lab__cell', row), img = $('img', cell), tag = $('.lab__tag', cell);
-      const src = state === 'stopped' ? `assets/salt-${key}-1000.jpg` : `assets/salt-${key}-${t}.jpg`;
+      const src = state === 'stopped' ? `salt-${key}-1000.jpg` : `salt-${key}-${t}.jpg`;
       if (img.getAttribute('src') !== src) img.src = src;
       cell.classList.toggle('is-stopped', state === 'stopped');
       tag.textContent = tags[state];

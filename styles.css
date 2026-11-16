@@ -75,7 +75,7 @@ em{font-style:italic}
 .dive__s3{transform-origin:50% 70%}
 .dive__under{position:absolute;inset:0;opacity:0;pointer-events:none}
 .dive__tint{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,96,140,.55),rgba(2,40,62,.85));mix-blend-mode:multiply}
-.dive__texture{position:absolute;inset:-15%;background:url(assets/water-texture.jpg) center/cover no-repeat;mix-blend-mode:soft-light;opacity:.9;animation:drift 14s ease-in-out infinite alternate}
+.dive__texture{position:absolute;inset:-15%;background:url(water-texture.jpg) center/cover no-repeat;mix-blend-mode:soft-light;opacity:.9;animation:drift 14s ease-in-out infinite alternate}
 @keyframes drift{from{transform:scale(1) translate(0,0)}to{transform:scale(1.12) translate(-3%,2%)}}
 .dive__caustics{position:absolute;inset:0;width:100%;height:100%;mix-blend-mode:screen;opacity:.32}
 .dive__surface{position:absolute;left:0;right:0;height:40vh;top:100%;pointer-events:none;
